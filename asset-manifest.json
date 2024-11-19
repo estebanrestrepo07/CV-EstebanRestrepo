@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-EstebanRestrepo/static/css/main.5a8aa8c8.css",
-    "main.js": "/CV-EstebanRestrepo/static/js/main.c03a897d.js",
+    "main.js": "/CV-EstebanRestrepo/static/js/main.91fad321.js",
     "static/js/787.62d08191.chunk.js": "/CV-EstebanRestrepo/static/js/787.62d08191.chunk.js",
     "static/media/Esteban_Restrepo.jpg": "/CV-EstebanRestrepo/static/media/Esteban_Restrepo.9d64705bb1c56b75dc0e.jpg",
     "static/media/yuxi-logo.jpg": "/CV-EstebanRestrepo/static/media/yuxi-logo.bf125a61c951e6ea0cc6.jpg",
@@ -9,11 +9,11 @@
     "static/media/Gap-logo.jpg": "/CV-EstebanRestrepo/static/media/Gap-logo.a5d89cf3e427c485c370.jpg",
     "index.html": "/CV-EstebanRestrepo/index.html",
     "main.5a8aa8c8.css.map": "/CV-EstebanRestrepo/static/css/main.5a8aa8c8.css.map",
-    "main.c03a897d.js.map": "/CV-EstebanRestrepo/static/js/main.c03a897d.js.map",
+    "main.91fad321.js.map": "/CV-EstebanRestrepo/static/js/main.91fad321.js.map",
     "787.62d08191.chunk.js.map": "/CV-EstebanRestrepo/static/js/787.62d08191.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a8aa8c8.css",
-    "static/js/main.c03a897d.js"
+    "static/js/main.91fad321.js"
   ]
 }
