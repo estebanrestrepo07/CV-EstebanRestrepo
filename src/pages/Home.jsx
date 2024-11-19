@@ -12,7 +12,7 @@ const title = `<Hola Mundo />`;
 const info = {
   name: 'Esteban Restrepo',
   introduction:
-    'Feel more than welcome to get to know more about me on the About page and what I have been doing and what I have reached on the Career page. \nYou can contact me on the following links:',
+    'Feel more than welcome to get to know more about me on the About page, furthermore on what I have been doing and what I have reached on the Career page. \nYou can contact me on the following links:',
   role: 'Senior Front-End Developer',
 };
 const icons = [
@@ -48,7 +48,7 @@ const Home = () => (
       </h1>
       <h4 className='text-blue-500'>{info.role}</h4>
 
-      <div className='max-w-sm text-justify my-4'>{info.introduction}</div>
+      <div className='max-w-sm text-justify my-4'>&#128513; {info.introduction} </div>
 
       <div className='icons-ref mt-6'>
         {icons.map((icon) => (

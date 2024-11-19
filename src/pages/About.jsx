@@ -3,14 +3,16 @@ import React from 'react';
 import profilePicture from 'styles/assets/img/Esteban_Restrepo.jpg';
 
 const text =
-  'I am an enthusiastic Front-End Software Developer with +5 years building and maintaining responsive websites. Proficient in JavaScript, TypeScript, HTML5, CSS, SASS and plus modern libraries and frameworks as Angular. Experience in Application State with NgRx and Unit Testing, Proven experience consuming APIs and implementing various design patterns. Architectural patterns and architectural styles and peer code reviews. In addition, I have been working lately with Localization and internationalization (i18n).\n\nI am keen to continue acquiring new skills and enjoy working in software, I have always had a keen interest in technology and pay great attention detailing in the work that I do.\n\nPlus, huge knowledge in infrastructure, computer security and an advanced level of the different operative systems and basic knowledge in PHP, Java, Python and NodeJS.';
+  `I am an enthusiastic Front-End Software Developer with +7 years building and maintaining responsive websites. Proficient in JavaScript, TypeScript, HTML5, CSS, SASS and plus modern libraries and frameworks as Angular and React. Experience in Application State with NgRx and Unit Testing, Proven experience consuming APIs and implementing various design patterns. Architectural patterns and architectural styles and peer code reviews. In addition, I have been working lately with Localization and internationalization (i18n).
+  \nI am keen to continue acquiring new skills and enjoy working in software, I have always had a keen interest in technology and pay great attention detailing in the work that I do.
+  \nPlus, huge knowledge in infrastructure, computer security and an advanced level of the different operative systems along basic knowledge in NodeJS, Python, Java, and PHP`;
 
 const About = () => (
   <>
     <div className='flex flex-col md:flex-row md:w-11/12 lg:w-5/6 md:m-auto'>
       <div className='about-me-picture mt-16 md:mt-20 mb-8 flex justify-center md:w-1/4 lg:w-2/4'>
         <img
-          className='rounded-full h-52 w-52 md:h-44 md:w-44 lg:h-52 lg:w-52'
+          className='rounded-full h-52 w-52 md:h-44 md:w-44 lg:h-52 lg:w-52 drop-shadow-md'
           src={profilePicture}
           alt='Workflow'
         />

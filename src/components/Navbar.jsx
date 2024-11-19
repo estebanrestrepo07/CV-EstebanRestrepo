@@ -5,6 +5,23 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const aboutLink = (
+    <Link to='/about'>
+      <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
+        About
+      </div>
+    </Link>
+  )
+
+  const careerLink = (
+    <Link to='/career'>
+      <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
+        Career
+      </div>
+    </Link>
+  )
+
+  const wppLink = 'https://wa.link/7ol8zk'
   return (
     <div>
       <nav className='border-solid border-b-2 border-b-blue-500'>
@@ -25,20 +42,10 @@ const NavBar = () => {
               </div>
               <div className='hidden md:flex flex-1 justify-end'>
                 <div className='ml-10 flex items-baseline space-x-4'>
-                  <Link to='/about'>
-                    <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
-                      About
-                    </div>
-                  </Link>
-
-                  <Link to='/career'>
-                    <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
-                      Career
-                    </div>
-                  </Link>
-
+                  {aboutLink}
+                  {careerLink}
                   <a
-                    href='https://wa.link/7ol8zk'
+                    href={wppLink}
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -113,25 +120,16 @@ const NavBar = () => {
             id='mobile-menu'
           >
             <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col '>
-              <Link to='/about'>
-                <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
-                  About
-                </div>
-              </Link>
-              <Link to='/career'>
-                <div className='border border-transparent hover:border-blue-500 text-blue-500 px-3 py-2 rounded-md text-sm font-medium'>
-                  Career
-                </div>
-              </Link>
-
+              {aboutLink}
+              {careerLink}
               <a
-                href='https://wa.link/7ol8zk'
+                href={wppLink}
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <button
                   type='button'
-                  href='https://wa.link/7ol8zk'
+                  href={wppLink}
                   className='inline-flex items-center px-4 py-2 rounded-md shadow-sm text-sm font-medium bg-green-500 text-white hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                 >
                   Contact Me
