@@ -72,7 +72,7 @@ const UdeAInfo = {
   title: 'Computer Science Engineering',
   detail: 'University of Antioquia',
   startDate: '2014',
-  endDate: '',
+  endDate: '2023',
   showDates: true,
   showMoreInfoIcon: false,
 };
@@ -139,7 +139,7 @@ const SportsInfo = {
   showMoreInfoIcon: false,
 };
 
-const experienceCards = [GapInfo, YuxiInfo];
+const jobExperienceCards = [GapInfo, YuxiInfo];
 const academicsCards = [UdeAInfo, senaInfo];
 const coursesCards = [WebPackInfo, AIForEngInfo, SafeInfo];
 const hobbiesCards = [RideBikeInfo, MovieInfo, SportsInfo];
@@ -147,9 +147,14 @@ const hobbiesCards = [RideBikeInfo, MovieInfo, SportsInfo];
 const CareerSections = [
   {
     id: 0,
-    title: 'Experience',
-    cards: experienceCards,
+    title: 'Job Experience',
+    cards: jobExperienceCards,
   },
+  //{
+  //  id: 1,
+  //  title: 'Technologies Experience',
+  //  cards: [],
+  //},
   {
     id: 1,
     title: 'Academic',
